@@ -8,6 +8,7 @@
 #define MINUTES 60
 #define HOURS 3600
 
+// this is cool
 // global variables
 bool isOn = true;
 
