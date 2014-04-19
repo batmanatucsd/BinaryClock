@@ -6,6 +6,16 @@ Binary Clock Codes
 See there are two files. 
 One of them is a solution code. So try to write your code before looking at the solution.
 
+Arduino functions that you may use
+pinMode(pin#, mode);  // mode: INPUT, OUTPUT
+digitalWrite(pin#, value); // value: HIGH, LOW
+digitalRead(pin#); // returns HIGH/LOW
+
+functions in Time.h that you may use
+hour(), minute(), second() // get current time
+setTime() // set a new time 
+adjustTime() // add # of seconds to change time 
+
 Pseudo Code for the turnDigitOn function
 void function turnDigitOn
 for each i in range start_index to finish_index {
